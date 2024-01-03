@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>University Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />    <body>
+    <section class="header">
+      <nav>
+        <a href="index.html"><img src="./images/logo.png" alt="" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa-solid fa fa-xmark" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="./index.html">HOME</a></li>
+            <li><a href="./about.html">TEAM</a></li>
+            <li><a href="./whatwedo.html">QUESTIONS</a></li>
+            <li><a href="./blog.html">HANDOUTS</a></li>
+            <li><a href="./contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa-solid fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <div class="text-box">
+        <h1>WE ARE MATHAHOLICS!</h1>
+        <p style="color: rgb(0, 0, 0);">
+          as maths as it gets.<br> ...
+        </p>
+        <a href="" class="hero-btn">EHHHHH REFRESH??</a>
+      </div>
+    </section>
+
+    <!-- what we generally do -->
+
+    <section class="course">
+      <h1>What We Generally DO</h1>
+      <p>We just math, but here are those things that include us mathing:</p>
+      <div class="row">
+        <div class="course-col">
+          <h3>Question Of The Week</h3>
+          <p>We have a weekly competition. Here we create problems each week or sometimes provide participants with already existing tricky maths problem to delve into.
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>Handouts</h3>
+          <p>We provide maths enthusiasts with proper well-written LaTeX handouts. This involves core maths materials as well as competetion maths and course-related maths materials. We believe the quality of our content is second to none. And above all it is FREEE.
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>Others</h3>
+          <p>Behind the scenes, we're working on many different things that would make life for our mathaholics a bit easier from our side.Let's not give it all away;}
+          </p>
+        </div>
+        </div>
+    </section>
+<!-- previous winners and questions -->
+    <section class="qotw">
+      <h1>Previous QOTWs with WINNERS</h1>
+      <p>Here are the some of the winners of the very initial phase of our weekly competition</p>
+      <div class="row">
+        <div class="qotw-col">
+          <img src="./images/qotw1.png" alt="">
+          <div class="layer">
+            <h3>DAVID THAPA</h3>
+          </div>
+        </div>
+        <div class="qotw-col">
+          <img src="./images/qotw2.png" alt="">
+          <div class="layer">
+            <h3>ARYAN BASNET</h3>
+          </div>
+        </div>
+        <div class="qotw-col">
+          <img src="./images/qotw3.png" alt="">
+          <div class="layer">
+            <h3>AGRAJ CHAPAGAIN</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+ 
+
+    <!-- testimonials -->
+
+    <section class="testimonials">
+      <h1>What Our Mathaholics Say</h1>
+      <p>This is being displayed only after taking their consent.</p>
+      <div class="row">
+        <div class="testimonial-col">
+          <img src="./images/user1.jpg" alt="">
+          <div>
+            <p>I've been following them since the very beginning and the quality of their content has only ever gotten better. I have nothing to complain about. Would be better if they involved the audience a bit more but yes, looking forward for the very best and good luck to the team.</p>
+          <h3>Agraj Chapagain</h3>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+          </div>
+        </div>
+        <div class="testimonial-col">
+          <img src="./images/user2.jpg" alt="">
+          <div>
+            <p>Good. The problems can be harder. But yes, all good. Good luck to the team.
+            </p><br><br><br>
+          <h3>David Thapa</h3>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!----- Call to action ------>
+
+    <section class="cta">
+      <h1 style="color: black;">GOT ANY QUERIES?? GET IN TOUCH WITH US :)</h1>
+      <a href="./contact.html" class="hero-btn">CONTACT US</a>
+    </section>
+
+    <!--------- footer --------->
+
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>Two dudes looking for mathaholics!</p>
+      <div class="icons">
+        <a href="https://www.facebook.com/profile.php?id=100089556802173"><i class="fa-brands fa-facebook" ></i></a>
+        <a href="https://www.linkedin.com/company/mathaholic/about/?viewAsMember=true"><i class="fa-brands fa-linkedin"></i></a>
+      </div>
+      <p>Made With <i class="fa-solid fa-heart"></i> by asal and saugat</p>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
